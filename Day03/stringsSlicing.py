@@ -8,6 +8,3 @@ print(name[2:4]) #slicing in between
 
 
 
-
-
-

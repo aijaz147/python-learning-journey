@@ -29,3 +29,4 @@ print(name4.isalnum())
 print(name4.isalpha())
 print(name4.islower())
 print(name4.isupper())
+
