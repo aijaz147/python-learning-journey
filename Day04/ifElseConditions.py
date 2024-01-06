@@ -41,4 +41,4 @@ elif(number2 > 0):
     else:
         print("Number is greater then 20") 
 else:
-    print("Number is zero")
+    print("Number is zero") 
