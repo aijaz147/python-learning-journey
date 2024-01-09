@@ -18,7 +18,7 @@ print("Substring without end:", substring_without_end)
 # Negative Indexing
 last_three_chars = original_message[-3:]
 print("Last three characters:", last_three_chars)
-
+ 
 # Stride (Step) in Slicing
 every_second_char = original_message[::2]
 print("Every second character:", every_second_char)
