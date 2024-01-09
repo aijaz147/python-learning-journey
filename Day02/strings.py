@@ -1,4 +1,4 @@
-# Strings
+# Strings 
 
 # Strings are sequences of characters in Python, used to represent text.
 
