@@ -1,23 +1,14 @@
-myNumber = "26"
+# Typecasting
+# Converting data types involving strings.
 
-x = "1"
-y = "2"
+# Integer to String
+age = 30
+age_str = str(age)
 
-n = int("7")
-m = int("3")
+# String to Float
+height_str = "5.9"
+height = float(height_str)
 
-print(n + m)
-
-print(x + y)
-print(int(x) + int(y))
-
-
-# implicit type casting
-
-a = 7
-print(type(a))
-b = 3.0
-print(type(b))
-c = a + b
-print(c)
-print(type(c))
+# Float to Integer
+weight_float = 68.5
+weight_int = int(weight_float)

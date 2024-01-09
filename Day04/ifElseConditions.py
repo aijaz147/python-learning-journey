@@ -1,44 +1,57 @@
-#1
+# If-Else Conditions
 
-userInput = int(input("Enter your age"))
-print("Your age is:", userInput)
-if (userInput >= 18):
-    print("You Can Drive")
+# Conditional Statements
+# Conditional statements allow your program to make decisions based on certain conditions.
+
+# If Statement
+# Example: Checking if a number is positive
+number = 5
+
+if number > 0:
+    print("The number is positive.")
+
+# If-Else Statement
+# Example: Checking if a number is positive or negative
+number = -3
+
+if number > 0:
+    print("The number is positive.")
 else:
-    print("You Can Not Drive")
+    print("The number is negative.")
 
-#2
+# If-Elif-Else Statement
+# Example: Checking if a number is positive, negative, or zero
+number = 0
 
-bikePrice = 350000 
-budget = 300000
-
-if(budget >= bikePrice):
-    print("You can buy the car")
+if number > 0:
+    print("The number is positive.")
+elif number < 0:
+    print("The number is negative.")
 else:
-    print("You can not buy the car")
+    print("The number is zero.")
 
-#3
-    
-number = -10
-if(number > 0):
-    print("Your Number Is Positive")
-elif(number == 0):
-    print("Your Number Is Zero")
-else:
-    print("Your Number is Negative")
+# Logical Operators
+# Logical operators (and, or, not) help combine multiple conditions.
+# Example: Checking if a number is between 10 and 20
+number = 15
 
-# nested
-    
-number2 = 5
+if number > 10 and number < 20:
+    print("The number is between 10 and 20.")
 
-if(number2 < 0):
-    print("Number is negative")
-elif(number2 > 0):
-    if(number2 <= 10):
-        print("Number is between 1-10")
-    elif(number2 >= 10 and number2 <= 20):
-        print("Number is between 10-20")
+# Nested If-Else
+# You can nest conditional statements to handle more complex scenarios.
+# Example: Checking if a number is positive, negative, or zero using nested if-else
+number = 0
+
+if number >= 0:
+    if number == 0:
+        print("The number is zero.")
     else:
-        print("Number is greater then 20") 
+        print("The number is positive.")
 else:
-    print("Number is zero") 
+    print("The number is negative.")
+
+# Summary
+# - Conditional statements (if, if-else, if-elif-else) are used for decision-making.
+# - Logical operators (and, or, not) help combine multiple conditions.
+# - Nested if-else statements handle more complex scenarios.
