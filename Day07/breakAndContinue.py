@@ -5,7 +5,7 @@
 for num in range(1, 6):
     if num == 3:
         break  # Exit the loop when num is 3
-    print(num)
+    print(num) 
 
 # Continue Statement
 # The continue statement skips the rest of the code in the current iteration and moves to the next iteration.
