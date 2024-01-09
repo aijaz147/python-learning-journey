@@ -1,4 +1,4 @@
-# Variables and Data Types
+# Variables and Data Types 
 
 # Variables
 # In Python, variables are used to store and manage data.
