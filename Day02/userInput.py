@@ -1,4 +1,4 @@
-# User Input 
+# User Input
 # Allowing users to provide input during program execution.
 user_input = input("Enter something: ")
 print("You entered:", user_input)
