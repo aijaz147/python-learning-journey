@@ -35,7 +35,7 @@ for num in range(1, 6):
         break  # Exit the loop when num is 4
 
 # Summary
-# - for loops iterate over sequences.
+# - for loops iterate over sequences. 
 # - range() generates sequences of numbers.
 # - Nested loops iterate over multiple sequences.
 # - enumerate() provides index and value during iteration.

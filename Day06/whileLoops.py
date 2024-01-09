@@ -39,7 +39,7 @@ else:
     print("Loop finished")
 
 # Summary
-# - while loops continue while a condition is true.
+# - while loops continue while a condition is true. 
 # - Be cautious of creating infinite loops; use break to exit.
 # - continue skips the rest of the code in the current iteration.
 # - The else clause is executed when the while condition becomes false.
