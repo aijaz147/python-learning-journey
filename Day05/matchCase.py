@@ -24,4 +24,4 @@ def process_data(data):
 process_data(0)    # Output: Zero
 process_data(1)    # Output: One or Two
 process_data(3)    # Output: Greater than two: 3
-process_data('abc') # Output: Other
+process_data('abc') # Output: Other 
