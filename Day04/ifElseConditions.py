@@ -34,7 +34,7 @@ else:
 # Logical operators (and, or, not) help combine multiple conditions.
 # Example: Checking if a number is between 10 and 20
 number = 15
-
+ 
 if number > 10 and number < 20:
     print("The number is between 10 and 20.")
 
