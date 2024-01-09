@@ -1,4 +1,4 @@
-# Day 1: Getting Started with Python
+# Day 1: Getting Started with Python 
 
 # What is Python?
 
